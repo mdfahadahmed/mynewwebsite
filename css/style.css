@@ -1,0 +1,357 @@
+body{
+	font-family: 'Nunito', sans-serif;
+	padding:0;
+	margin:0;
+	overflow-x:hidden;
+	color: #787878;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	color: #1d1d1d;
+}
+
+
+.backgoundheader{
+	background-image: url(../image/background.jpg);
+	background-size: cover;
+	background-position: top right;
+	
+
+}
+
+
+header h2{
+	font-style:italic;
+	color:red;
+	font-style:bold;
+	font-size:25px
+}
+
+header{
+
+	padding: 15px 0px;
+	border-bottom: 1px solid #e6f2fb;
+}
+header.navbar-nav{
+	margin-left: auto !important;
+    margin-right: 0px !important;
+	font-style:bold;
+	text-align:right;
+}
+
+/* menu design*/
+
+.navbar{
+	position: relative;
+}
+
+.navbar .menu-right{
+  position: absolute;
+  right: 0;
+}
+
+/* hero-section style start from here */
+
+
+.web-section h2{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.web-section p{
+	margin-bottom: 30px !important;
+}
+
+a.get-started-btn {
+    background: #10c9c3;
+    color: #fff;
+    margin-left: 25px;
+    padding: 10px 40px;
+ 
+    text-decoration: none;
+    margin: 0;
+}
+
+a.get-started-btn:hover{
+	background: #114e7a;
+}
+
+.design-section{
+	padding:200px 0px
+}
+
+
+/* hero-section style start from here */ 
+
+.about-section{
+	padding:80px 0px;
+    text-align:center;
+	background:#ffffff;
+	
+}
+
+.about-section h3{
+	font-size:35px;
+}
+.about-section h4{
+	font-style:italic;
+}
+
+
+
+/* hero-section style start from here */
+.skills-section{
+	padding:80px 0px;
+	background: url(../image/unnamed.jpg);
+	background-size:cover;
+	background-position:top right;
+    color:#ffffff;
+	font-size:25;
+}
+
+.skills-section h2{
+	color:black;
+}
+
+/* hero-section style start from here */
+.patishon-section{
+	padding:50px 0px;
+  background:#10c9c3;
+}
+
+.patishon-section .single-feature{
+	padding: 30px 20px;
+    overflow: hidden;
+    color: #fff;
+   
+}
+.patishon-section .single-feature h2{
+	color:#fff;
+}
+
+.patishon-section .single-feature p{
+	color: #fff;
+}
+
+.patishon-section .single-feature .icon svg {
+    height: 50px;
+    color: white;
+    width: 50px !important;
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+
+/* hero-section style start from here */
+
+.img-list{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+.img-list li{
+	list-style: none;
+	width: 400px;
+}
+.img-list li img{
+	width: 100%;
+	max-width: 100%;
+	height: 300px;
+}
+
+
+
+.single-skill{
+	transition: width 2s linear 2s;
+}
+
+
+.single-skill .skill-bar {
+    width: 350px;
+    position: relative;
+    margin-bottom: 20px;
+     transition: width 2s linear 2s;
+}
+.single-skill  .skill-bar::before {
+    content: "";
+    position: absolute;
+    width: 75%;
+    height: 4px;
+    background: #10c9c3;
+    border-radius: 5px;
+    z-index: 99;
+    transition: width 2s linear 3s;
+
+}
+.single-skill  .skill-bar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #d8d8d8;
+    border-radius: 5px;
+    transition: width 2s linear 5s;
+}
+
+
+
+
+
+
+.single-skill-two .skill-bar{
+    width: 350px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.single-skill-two .skill-bar::before {
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: 4px;
+    background: #10c9c3;
+    border-radius: 5px;
+    z-index: 99;
+}
+.single-skill-two .skill-bar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #d8d8d8;
+    border-radius: 5px;
+}
+
+
+
+.single-skill-three .skill-bar{
+    width: 350px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.single-skill-three .skill-bar::before {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 4px;
+    background: #10c9c3;
+    border-radius: 5px;
+    z-index: 99;
+}
+.single-skill-three .skill-bar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background: #d8d8d8;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* hero-section style start from here */
+.video-section{
+	padding:80px 0px;
+}
+	
+.video-section .frist-section{
+	text-align:center;
+}
+.video-section .frist-section p{
+	padding:0px;
+	font-size:15px;
+	
+}
+.video-section .frist-section h2{
+    font-size:40px;
+}
+.video-section. .frist-section video{ 
+    background-size:cover;
+	background-position:top right;
+	
+}
+
+/* hero-section style start from here */
+.icon-section{
+	padding:10px;
+	background:#e1e7eb;
+}
+.icon-section .icon-list{
+	padding:30px 0px;
+    overflow:hidden;
+	
+}
+.icon-section.icon-list li{
+	display: flex;
+	
+}
+
+
+
+/* hero-section style start from here */
+.paparagraph-section{
+	padding:60px;
+	background:#10c9c3;
+	font-size:25px;
+	text-align:center;
+}
+.paparagraph-section.first-section{
+	padding:40px 0px;
+}
+
+.paparagraph-section.first-section h5{
+	color:#787878;
+}
+/* hero-section style start from here */
+.mondmade-section{
+	padding:50px;
+	
+}
+.first-list{
+	display:flex;
+}
+.first-list img{
+	width:240px;
+}
+.first-list ul img{
+	width:100%;
+	max-width:100%;
+	height:300px;
+	text-align:center;
+}
+
+/* hero-section style start from here */
+.from-section{
+	padding:50px;
+	 background-color:#f5f5f5;
+	 text-align:center;
+}
+.from-section.from-list p{
+	padding:0px;
+	font-size:15px;
+}
+.from-section.contant-form button{
+	width: 350px;
+    position: relative;
+    
+}
+.contant-from{
+	margin: 50px 0px;
+	text-align:center;
+}
+
+/* hero-section style start from here */
+/* hero-section style start from here */
+
+/* hero-section style start from here */
+/* hero-section style start from here */
+/* hero-section style start from here */
+/* hero-section style start from here */
+/* hero-section style start from here */
+/* hero-section style start from here */
+/* hero-section style start from here */
+/* hero-section style start from here */
